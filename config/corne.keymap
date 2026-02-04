@@ -26,35 +26,30 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp LEFT_BRACKET>;
-            label = "COPY_MODE";
         };
 
         add_new_tmux_window: add_new_tmux_window {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp C>;
-            label = "ADD_NEW_TMUX_WINDOW";
         };
 
         next_window: next_window {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp N>;
-            label = "NEXT_WINDOW";
         };
 
         harpoon_list_tmux: harpoon_list_tmux {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp H>;
-            label = "HARPOON_LIST_TMUX";
         };
 
         harpoon_tmux_mark: harpoon_tmux_mark {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(A) &kp M>;
-            label = "HARPOON_TMUX_MARK";
         };
     };
 
